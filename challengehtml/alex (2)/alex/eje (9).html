@@ -1,0 +1,66 @@
+<section>
+  <h2>Formulario de Contacto</h2>
+  <form action="#" method="post">
+
+    <fieldset>
+      <legend>Información Personal</legend>
+
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required minlength="3"
+        style="border: 1px solid #333; margin: 5px; padding: 5px;"><br>
+
+      <label for="email">Correo electrónico:</label>
+      <input type="email" id="email" name="email" required
+        style="border: 1px solid #333; margin: 5px; padding: 5px;"><br>
+
+      <label for="password">Contraseña:</label>
+      <input type="password" id="password" name="password" placeholder="Ingresa tu contraseña"
+        style="border: 1px solid #333; margin: 5px; padding: 5px;"><br>
+
+      <label>Sexo:</label><br>
+      <label><input type="radio" name="sexo" value="masculino" required
+        style="margin: 5px;"> Masculino</label><br>
+      <label><input type="radio" name="sexo" value="femenino"
+        style="margin: 5px;"> Femenino</label><br>
+      <label><input type="radio" name="sexo" value="otro"
+        style="margin: 5px;"> Otro</label><br>
+    </fieldset>
+
+    
+    <fieldset>
+      <legend>Mensaje</legend>
+
+      <label for="motivo">Motivo de contacto:</label>
+      <select id="motivo" name="motivo" required
+        style="border: 1px solid #333; margin: 5px; padding: 5px;">
+        <option value="consulta">Consulta</option>
+        <option value="soporte">Soporte</option>
+        <option value="otro">Otro</option>
+      </select><br>
+
+      <label for="mensaje">Mensaje:</label><br>
+      <textarea id="mensaje" name="mensaje" required minlength="10"
+        style="border: 1px solid #333; margin: 5px; padding: 5px; width: 300px; height: 100px;"></textarea><br>
+    </fieldset>
+
+    <fieldset>
+      <legend>Consentimientos</legend>
+
+      <label><input type="checkbox" name="suscripcion"
+        style="margin: 5px;"> Deseo recibir novedades</label><br>
+
+      <label><input type="checkbox" name="terminos" required
+        style="margin: 5px;"> Acepto los términos y condiciones</label><br>
+    </fieldset>
+
+    <fieldset>
+      <legend>Acciones</legend>
+
+      <input type="submit" value="Enviar"
+        style="background-color: green; color: white; border: none; margin: 10px; padding: 10px;">
+      <input type="reset" value="Reiniciar"
+        style="background-color: red; color: white; border: none; margin: 10px; padding: 10px;">
+    </fieldset>
+
+  </form>
+</section>

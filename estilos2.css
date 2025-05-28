@@ -1,0 +1,14 @@
+body{
+    text-align: center;
+    line-height: 100px; 
+    background:linear-gradient(to bottom,yellow,red,orange);
+    --fuente-principal: Verdana;
+}
+
+h1 {
+    color: var(--color-principal);
+}
+section {
+    text-align: start;
+    line-height: 15px;
+}

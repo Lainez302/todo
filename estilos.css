@@ -1,0 +1,28 @@
+:root {
+        --color-principal: #007bff;
+        --color-secundario: #6c757d;
+        --fuente-principal: 'Arial', sans-serif;
+    }
+    
+    body{
+        font-family: var(--fuente-principal);
+        background-color: var(--color-secundario); 
+        text-align: center;
+        line-height: 100px;
+    }
+
+    h1 {
+        color: var(--color-principal);
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: sans-serif;
+      }
+      h1, h2, h3, h4, h5, h6 {
+        font-weight: normal;
+      }
